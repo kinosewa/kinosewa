@@ -3,7 +3,7 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
     background: url('images/background.jpeg') center/cover no-repeat; 
-    color: #000000;
+    color: #ffffff;
     text-align: center;
 }
 
@@ -58,7 +58,7 @@ h2 {
 
 /* Footer */
 footer {
-    background-color: #1e1e1e;
+    background-color: #474747;
     padding: 20px;
     position: relative;
     bottom: 0;

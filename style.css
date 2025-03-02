@@ -40,7 +40,9 @@ nav ul li a:hover {
 /* Hero Section */
 #hero {
     padding: 100px 20px;
-    background: linear-gradient(135deg, #1a1a1a, #333);
+    background: url('background.jpeg') center/cover no-repeat;
+    color: white;
+    text-align: center;
 }
 
 /* Sections */

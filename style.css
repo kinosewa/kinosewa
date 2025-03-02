@@ -60,7 +60,7 @@ h2 {
 footer {
     background-color: #474747;
     padding: 20px;
-    position: relative;
+    position: bottom;
     bottom: 0;
     width: 100%;
 }

@@ -1,66 +1,8 @@
-/* General Styles */
+.important {
+    color: royalblue;
+}
+
 body {
-    margin: 0;
     font-family: Arial, sans-serif;
-    background: url('images/background.jpeg') center/cover no-repeat; 
-    color: #ffffff;
-    text-align: center;
-}
-
-/* Navigation Bar */
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    background-color: #1e1e1e;
-}
-
-.logo {
-    font-size: 24px;
-    font-weight: bold;
-}
-
-nav ul {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: white;
-    transition: color 0.3s;
-}
-
-nav ul li a:hover {
-    color: #00bcd4;
-}
-
-/* Hero Section */
-#hero {
-    padding: 100px 20px;
-    background: url('background.jpeg') center/cover no-repeat;
-    color: white;
-    text-align: center;
-}
-
-/* Sections */
-section {
-    padding: 80px 20px;
-}
-
-h2 {
-    border-bottom: 2px solid #00bcd4;
-    display: inline-block;
-    padding-bottom: 5px;
-}
-
-/* Footer */
-footer {
-    background-color: #474747;
-    padding: 20px;
-    position: bottom;
-    bottom: 0;
-    width: 100%;
+    background-image: url("images/background.jpeg");
 }

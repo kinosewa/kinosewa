@@ -1,27 +1,66 @@
 <!DOCTYPE html>
-<html lang="en"> 
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>predated</title>
+    <title>Survey Form</title>
     <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body>
-    <header>
-        <nav>
-            <div class="logo"><a href="index.html">Predated Space</a></div>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <section id="showcase">
-        <div class="container">
-            <h1>nigga <span class="important">predated</span> nigga</h1>
-            <p><a href="about.html">bitch ass nigga</a></p>
+    <h1 id="title">Customer Satisfaction Survey Form</h1>
+    <p id="description">Please, let us know how to improve our services by answering this simple survey.</p>
+    <form id="survey-form">
+
+        <label id="name-label" for="name">Name:</label>
+        <input type="text" id="name" name="name" required placeholder="Enter your name">
+
+        <label id="email-label" for="email">Email:</label>
+        <input type="email" id="email" name="email" required placeholder="Enter your Email">
+
+        <label id="number-label" for="number">Age:</label>
+        <input type="number" id="number" name="age" min="16" max="99" required placeholder="Age">
+
+        <label id="dropdown-label" for="dropdown">What is your occupation?</label>
+
+        <select id="dropdown" name="role" required>
+            <option disabled selected value>Select one</option>
+            <option value="student">Student</option>
+            <option value="professionist">Professionist</option>
+            <option value="investigator">Investigator</option>
+            <option value="worker">Worker</option>
+            <option value="other">Other</option>
+        </select>
+        <hr>
+        <label id="radio-label" for="radio">Would you recommend our services to someone else?</label>
+        <div class="radio">
+            <input type="radio" name="user-recommend" value="yes" checked required>Yes
         </div>
+        <div class="radio">
+            <input inline type="radio" name="user-recommend" value="not-sure" required>Not sure
+        </div>
+        <div class="radio">
+            <input inline type="radio" name="user-recommend" value="not-at-all" required>Not at all
+        </div>
+        <hr>
+        <label id="checkbox-label" for="checkbox">What do you like most about our services?</label>
+        <div class="checkbox">
+            <input inline type="checkbox" name="like" value="efficiency">Efficiency
+        </div>
+        <div class="checkbox">
+            <input inline type="checkbox" name="like" value="customer-support">Customer Support
+        </div>
+        <div class="checkbox">
+            <input inline type="checkbox" name="like" value="community">Community
+        </div>
+        <div class="checkbox">
+            <input inline type="checkbox" name="like" value="affordability">Affordability
+        </div>
+        <hr>
+        <label id="comment-label" for="comments">Any comments or suggestions?</label>
+        <br>
+        <textarea id="comments" name="comments" placeholder="Enter your comments here..."></textarea>
+        <input type="submit" id="submit" value="Submit" />
+    </form>
+    <footer>
+        <p>hi</p>
+    </footer>
 </body>
-</html>

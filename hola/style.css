@@ -10,3 +10,8 @@ img {
     border-radius: 10px;
     border: 2px solid #ffffff;
 }
+p {
+    color: #ffffff;
+    text-align: center;
+    font-size: 20px;
+}

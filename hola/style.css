@@ -12,6 +12,8 @@ body {
 }
 
 img {
+    display: block;
+    margin: auto;
     border-radius: 10px;
     width: 20%;
     height: auto;

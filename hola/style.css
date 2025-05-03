@@ -3,10 +3,9 @@ body {
 }
 
 img {
-
     display: block;
     margin: auto;
-    margin-top: 40px;
+    padding-top: 50px;
     width: 20%;
     border-radius: 10px;
     border: 2px solid #ffffff;

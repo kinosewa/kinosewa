@@ -7,8 +7,6 @@ img {
     display: block;
     margin: auto;
     width: 20%;
-    padding: 20%;
     border-radius: 10px;
     border: 5px solid #ffffff;
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
 }

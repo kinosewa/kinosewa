@@ -9,3 +9,11 @@ p {
 body {
     background-color: black;
 }
+
+img {
+    border-radius: 10px;
+    border: 2px solid white;
+    opacity: 90%;
+    width: 100%;
+    height: auto;
+}

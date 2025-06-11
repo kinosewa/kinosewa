@@ -9,7 +9,7 @@ img {
     border-radius: 10px;
     border: 2px solid #ffffff;
 }
-p {
+p, h1, h2 {
     color: #ffffff;
     text-align: center;
     font-size: 20px;

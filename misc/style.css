@@ -9,7 +9,7 @@ img {
     border-radius: 10px;
     border: 2px solid #ffffff;
 }
-p, h1, h2 {
+p, h1, h2, footer{
     color: #ffffff;
     text-align: center;
     font-size: 20px;
@@ -23,4 +23,19 @@ video {
     border-radius: 10px;
     border: 2px solid #ffffff;
     
+}
+
+.button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: darkgrey;
+     border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+}
+.button:hover {
+     background-color: grey;
 }

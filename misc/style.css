@@ -39,3 +39,21 @@ video {
 .button:hover {
      background-color: grey;
 }
+
+.socials {
+    text-align: center;
+}
+
+.socials a {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: darkgrey;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.socials a:hover {
+    background-color: grey;
+}

@@ -28,11 +28,11 @@ body {
 }
 
 .tbd {
-    color: #574a4a;
+    color: #9c9a9a;
     text-align: center;
     font-size: 20px;
     margin: auto;
-    padding: 80px;
+    padding: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -45,8 +45,8 @@ body {
     margin: 5px;
     padding: 10px 20px;
     font-size: 16px;
-    color: white;
-    background-color: #2a2828;
+    color: rgb(184, 162, 133);
+    background-color: #363434;
     border-radius: 5px;
     text-decoration: none;
     

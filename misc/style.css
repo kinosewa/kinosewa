@@ -5,15 +5,15 @@ body {
 img {
     display: block;
     margin: auto;
-    width: 30%;
+    width: 20%;
     border-radius: 10px;
-    border: 2px solid #ffffff;
+    border: 2px solid #cce9ee;
 }
 p, h1, h2, footer{
     color: #ffffff;
     text-align: center;
     font-size: 20px;
-    padding: 15%;
+    padding: 10%;
 }
 video {
     display: block;

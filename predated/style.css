@@ -32,7 +32,7 @@ body {
     text-align: center;
     font-size: 20px;
     margin: auto;
-    padding: 100px;
+    padding: 80px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -46,9 +46,10 @@ body {
     padding: 10px 20px;
     font-size: 16px;
     color: white;
-    background-color: darkgrey;
+    background-color: #2a2828;
     border-radius: 5px;
     text-decoration: none;
+    
 }
 .socials a:hover {
     background-color: grey;
